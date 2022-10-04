@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
-/* *{
+z@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
+*{
     padding: 0;
-} */
+}
 body{
     box-sizing: border-box;
     margin: 0;
@@ -29,7 +29,7 @@ header{
 .header-menu{
     color: #00000080;
     background: white;
-    font-size: 16px;
+    font-size: 16px; 
 }
 .circle{
     padding: 8px;
@@ -265,15 +265,15 @@ header{
     padding-left: 50px;
     text-transform: capitalize;
     font-family: "oswald", sans-serif;
-    /* object-fit: cover; */
+    object-fit: cover;
  }
  .boxy img{
     object-fit: cover;
-    background-position:left;
+    /* background-position:left; */
     
  }
  .count{
-    height: 300px !important;
+    height: 400px !important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -304,4 +304,149 @@ header{
     text-transform: capitalize;
     font-family: "oswald", sans-serif;
  }
-
+.tif{
+    display: flex;
+    line-height: 25px;
+    text-decoration: none;
+    gap: 50px;
+    list-style: none;
+    padding-top: 60px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.fle{
+    display: flex;
+    flex-direction: row;
+    padding-left: 120px;
+    border: 1px solid white;
+    padding-top: 50px;
+    padding-right: 40px;
+    
+}
+.fle img{
+    object-fit: cover;
+    border-radius: 100%;
+    /* font-size: small; */
+    height: 130px;
+    width: 130px;
+}
+.flee{
+    padding-left: 15px;
+    background-color: rgba(238, 234, 234, 0.968);
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.quot{
+    background: url(./images/teacher\ 2.jpg);
+    height: 500px;
+    width: 100%;
+    background-size: contain;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 40px;
+}
+.formy{
+  letter-spacing: 60px;
+  padding-top: 40px;
+  
+}
+.quoty{
+    padding-left: 40px;
+    text-transform: capitalize;
+    background-color: blue;
+    border: 12px 25px;
+    margin-right: 20%;
+}
+.our{
+    padding-top: 100px;
+    text-transform: capitalize;
+    /* display: flex; */
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 15px;
+}
+.our h3{
+    color: tomato;
+    font-size: 30px;
+}
+.candy{
+    padding: 0 5%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    text-transform: capitalize;
+    padding-top: 50px;
+}
+.cand{
+  text-align: justify;
+  align-items: center;
+  box-shadow: rgba(50, 50, 73, 0.35) 0px 20px 30px -15px, rgba(0, 0, 0, 0.3) 0px 20px 30px -40px, rgba(10, 37, 64, 0.45) 0px -2px 5px 0px inset;
+}
+.candy img{
+    object-fit: cover;
+    width: 100%;
+}
+  .buty{
+    text-align: center !important;
+    align-items: center;
+  }
+  .cand .candey{
+    padding-left: 20px;
+  }
+  .mato{
+    justify-content: center;
+    padding-top: 100px;
+    text-align: center;
+  }
+  .sona{
+    display: grid;
+    text-transform: capitalize;
+    text-align: justify;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    object-fit: cover;
+    /* padding-top: 25px; */
+    padding: 30px;
+  }
+  .soni span{
+    padding-left: 100px; 
+    border: 1px solid white;
+    box-shadow: rgba(186, 145, 247, 0.35) 0px 20px 30px -15px, rgba(0, 0, 0, 0.3) 0px 20px 30px -40px, rgba(191, 212, 234, 0.45) 0px -2px 3px 0px inset;
+  }
+  .soni h3{
+    font-size: 20px;
+  }
+  .mic{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-top: 100px;
+  }
+  .mic img{
+    padding: 0px;
+    object-fit: cover;
+  }
+  .ony{
+    background-color: black;
+    height: 600px;
+    color: white;
+  }
+.oney{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-top: 70px;
+    text-transform: capitalize;
+    font-family: "oswald", sans-serif;
+    font-weight: 700;
+    padding-left: 35px;
+}
+.mute{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-left:35px ;
+    padding-top: 80px;
+    line-height: 2em;
+    text-transform: capitalize;
+}
