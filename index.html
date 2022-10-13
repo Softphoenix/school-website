@@ -7,7 +7,7 @@
     <script src="https://kit.fontawesome.com/62c73986b4.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <title>Document</title>
 </head>
 <body> 
@@ -28,6 +28,9 @@
         </div>
         <div class="header-menu">
             <span class="logo">Kiddos</span>
+             <div class="menu-btn">
+             <i class="fas fa-bars"></i>
+            </div>
                 <nav>
                     <a href="index.html">Home</a>
                     <a href="about.html">About</a>
@@ -48,7 +51,7 @@
        <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="./images/child 1.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption">
               <h5>kids are the best</h5>
               <p>explores in the world</p>
               <button class="btn btn-warning">read more</button>
@@ -57,7 +60,7 @@
           </div>
           <div class="carousel-item">
             <img src="./images/child 2.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption">
               <h5>the best generation</h5>
               <p>perfect your child.</p>
               <button class="btn btn-warning">read more</button>
@@ -66,7 +69,7 @@
           </div>
           <div class="carousel-item">
             <img src="./images/child 3).jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption">
               <h5>kids are inteligent</h5>
               <p>they are the future of tomorrow.</p>
               <button class="btn btn-warning">read more</button>
@@ -383,10 +386,10 @@ data-aos-easing="ease-in-sine">
 <h2 style="color: white;"> request a qoute</h2>
 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam iste quibusdam earum culpa molestias excepturi ipsa maxime et, <br> provident sequi rem neque, dolores itaque saepe eum consequatur libero debitis asperiores.</p>
 <div class="formy">
-<form action="">
+<form action="{getform-endpoint}" method="POST" data-netlify-recaptcha="true">
   <p>
-  <input type="text" name="" id="name" placeholder="First Name">
-  <input type="text" name="first name" id="name" placeholder="Last Name"> 
+  <input type="text" name="first-name" id="name" placeholder="First Name">
+  <input type="text" name="last-name" id="name" placeholder="Last Name"> 
 </p>
     <p>
    <select name="" id="course">
@@ -399,10 +402,11 @@ data-aos-easing="ease-in-sine">
   </p>
   <p>
    <span>
-    <input type="text" name="" id="name" placeholder="phone number">
+    <input type="text" name="phone" id="name" placeholder="phone number">
   </span>
 </p>
-  <button class="btn btn-warning">request a quote</button>
+ <div data-netlify-recaptcha="true"></div>
+  <button class="btn btn-warning">summit</button>
 </form>
   </div>
   </div>
@@ -586,5 +590,11 @@ data-aos-easing="ease-in-sine">
 </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+      const btn = document.getElementById('menu-btn')
+      document.querySelector(".menu-btn").addEventListener("click", () => document.
+      querySelector("nav").classList.toggle("show"))
+    </script>
 </body>
 </html>
