@@ -351,10 +351,12 @@ header{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     margin-top: 40px;
+    
 }
 .formy{
   letter-spacing: 60px;
   padding-top: 40px;
+  padding: ;
   
 }
 .quoty{
@@ -458,6 +460,11 @@ header{
 
 
 @media (max-width:650px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
     .menu-btn{
         display: block;
         justify-self: flex-end;
@@ -581,9 +588,10 @@ header{
     margin-top: 10px;
     justify-content: center;
  }
- /* .rounded-circle i{
-    margin-left: 40px;
- } */
+ .quot{
+    padding-left: 2px;
+    padding-right: 2px;
+ }
  
 
 }
