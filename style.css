@@ -107,6 +107,10 @@ header{
      grid-template-columns: repeat(4,1fr);
      text-align: center;
      min-height: auto;
+     /* padding-left: 25px; */
+ }
+ .card-wrapper i{
+    /* padding-left: 30px; */
  }
 .card{
     min-height: 250px;
@@ -119,7 +123,7 @@ header{
     margin-top: -90px;
     z-index: 20000;
     position: relative;
-    left: 100px;
+    left: 130px;
 }
 .rounded-circle{
     color: blue;
@@ -437,7 +441,7 @@ header{
   }
   .ony{
     background-color: black;
-    min-height: 600px;
+    min-height: 600px; 
     color: white;
   }
 .oney{
@@ -487,7 +491,7 @@ header{
         flex-direction: column;
         z-index: 2000;
         margin-top: 30px;
-        background: rgba(0, 0, 0, 0.688);
+        background: rgba(0, 0, 0, 0.888);
         position: absolute;
         left: 0;
         top: 154px;
@@ -496,7 +500,7 @@ header{
         transform: translateX(-500px);
         transition: all 1s ease-out 0.8;
         /* opacity: 0; */
-        padding-left: 83vw;
+        padding-left: 50vw;
     }
     nav.show{
         transition: all 1s ease-in 0.8;
@@ -532,36 +536,94 @@ header{
     .boxy{
         grid-template-columns: 1fr;
     }
-    .box{
-        flex-direction: column;
+    .col{
+        padding-top: 80px;
     }
-    .boxi {
-        margin-left: 40px;
-        background-color: white;
+    .box{
+        display: grid;
+        grid-template-columns: 1fr;
+        border: 1px solid grey;
+        padding-left: 0px;
+        margin-right: 45px;
+    }
+    .box img{
+        width: 100%;
     }
     .kidd{
         margin-top: 18px;
         margin-left: 25px;
-
+    }
+    }
+    .take{
+        background: rgba(229, 232, 235, 0.927) url(./images/pexels-artem-podrez-8087923.jpg);
+        height: 400px !important;
+        font-family: "oswald", sans-serif;
+        background-position: center; 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        /* margin-left: 15px; */
+    }
+    .take h2{
+        font-size: 35px;
     }
     .take p{
-        margin-top: 35px;
-        font-size: 18px;
+        margin-top: 60px;
+        font-size: 16px;
+    }
+    .take button{
+        padding: 10px 12px;
     }
     .fied{
         padding-top: 90px;
         font-size: 35px;
     }
-    .count p ul{
-        font-size: 8px;
+    .count{
+    background: rgba(255, 255, 255, 0.889) url(./images/pencils.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* margin-left: 25px; */
+    position: relative;
+    }
+    .count h2{
+        font-size: 25px;
+    }
+    .count p{
+        font-size: 16px; 
+    }
+    .tif{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding-bottom: 40px;
     }
     .fle{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 10px;
+        /* margin-right: 45px; */
+    }
+    .fle .flee{
+        justify-content: center;
+        text-align: center;
+        margin-left: -33%;
     }
     .quot{
         grid-template-columns: 1fr;
+        margin-top: 0px;
+    }
+    .quoty{
+        margin-top: 0px;
+    }
+    .formy{
+        margin-bottom: -25px;
+    }
+    .formy button{
+        margin-left: 12%;
+    }
+    .cand p{
+        padding-left: 20px;
     }
     .quoty{
         margin-left: 55px;
@@ -588,10 +650,5 @@ header{
     margin-top: 10px;
     justify-content: center;
  }
- .quot{
-    padding-left: 2px;
-    padding-right: 2px;
- }
  
-
 }
