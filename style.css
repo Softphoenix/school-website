@@ -553,7 +553,6 @@ header{
         margin-top: 18px;
         margin-left: 25px;
     }
-    }
     .take{
         background: rgba(229, 232, 235, 0.927) url(./images/pexels-artem-podrez-8087923.jpg);
         height: 400px !important;
@@ -568,7 +567,7 @@ header{
         font-size: 35px;
     }
     .take p{
-        margin-top: 75px;
+        margin-top: 85px;
         font-size: 16px;
     }
     .take button{
@@ -618,6 +617,11 @@ header{
     }
     .formy{
         margin-bottom: -25px;
+        position: relative;
+    }
+    .recap{
+        position: absolute;
+        padding: 5px 13px;
     }
     .formy button{
         margin-left: 12%;
