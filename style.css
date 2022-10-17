@@ -617,11 +617,9 @@ header{
     }
     .formy{
         margin-bottom: -25px;
-        position: relative;
     }
     .recap{
-        position: absolute;
-        padding: 5px 13px;
+        font-size: 20px;
     }
     .formy button{
         margin-left: 12%;
